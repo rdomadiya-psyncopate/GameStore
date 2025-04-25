@@ -1,0 +1,15 @@
+GET http://localhost:5002/games
+
+###
+GET http://localhost:5002/games/1
+
+###
+POST http://localhost:5002/games
+Content-Type: application/json
+
+{
+  "title": "Game Title",
+  "description": "Game Description",
+  "price": 59.99,
+  "releaseDate": "2023-10-01"
+}
